@@ -5,9 +5,7 @@ swifty-webview
 
 ![preview](screenshot/preview.gif)
 
-## Usage
-
-### Configuration
+## Configuration
 
 ```swift
 let viewController = WebviewController(urlString: "TEST", title: "test", autoLoad: false)
@@ -16,7 +14,7 @@ self.window?.rootViewController = UINavigationController(rootViewController: vie
 viewController.startLoad()
 ```
 
-### Usage
+## Usage
 
 ```js
 var $ = function(selector) {

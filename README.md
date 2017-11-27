@@ -1,5 +1,4 @@
-swifty-webview
-==============
+# swifty-webview
 
 ## Preview
 
@@ -16,7 +15,7 @@ viewController.startLoad()
 
 ## Usage
 
-```js
+```javascript
 var $ = function(selector) {
   var res = document.querySelectorAll(selector);
   if (res.length > 1) {
@@ -54,5 +53,3 @@ document.addEventListener('JSBridgeReady', function() {
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf
